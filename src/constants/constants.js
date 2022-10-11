@@ -30,14 +30,34 @@ export const projects = [
 		id: 2,
 	},
 	{
-		title: 'Unichat',
+		title: 'Hulu Clone',
 		description:
-			'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
-		image: '/images/4.jpg',
-		tags: ['React', 'ChatEngine', 'Firebase'],
-		source: 'https://google.com',
-		visit: 'https://google.com',
+			'This is a Hulu Clone. This will present the movie information from TMDB just like HULU. You can search top 20 movies and dramas by category. You will find specific ways to present contents in grid formats. This app utilize Nextjs, TMDB api and TailwindCss.',
+		image: '/images/hulu-thumbnail.png',
+		tags: ['NextJS', 'TailwindCSS'],
+		source: 'https://github.com/dukuaris/hulu-clone',
+		visit: 'https://hulu-clone-bay-five.vercel.app',
 		id: 3,
+	},
+	{
+		title: 'Netflix Clone',
+		description:
+			'This is a Netflix Clone. This will present the movie information from TMDB just like Netflix. You preview top 20 movies and dramas by category. You will find specific ways to present contents in just the sam format as Netflix. This app utilize Nextjs, Recoil, and Firebase',
+		image: '/images/netflix_thumbnail.png',
+		tags: ['NextJS', 'Recoil', 'Firebase'],
+		source: 'https://github.com/dukuaris/netflix-redesign',
+		visit: 'https://netflix-redesign-psi.vercel.app/',
+		id: 4,
+	},
+	{
+		title: 'Apple Redesign',
+		description:
+			'This is a redesigned apple website. This is a fully functional ecommerce site from login, select products into the cart, and pay through Stripe. Using sanity, the administrator can register products and categories. Users can log in with their own google email accounts',
+		image: '/images/apple-redesign.png',
+		tags: ['NextJS', 'Typescript', 'Sanity', 'Stripe'],
+		source: 'https://github.com/dukuaris/apple-clone',
+		visit: 'https://apple-redesign-eosin.vercel.app/',
+		id: 5,
 	},
 ]
 
