@@ -1,6 +1,6 @@
 1.	참고 URL: https://youtu.be/OPaLnMw2i_0?t=3295 
 2.	Thumbnail image(size: 1280 x 720) 제작후(https://www.canva.com/create/youtube-thumbnails/ 에서 제작) public/images 폴더에 업로드
-3.	src/constants/constants.js 파일 업데이트
+3.	src/constants/constants.js 파일 업데이트 (reverse list)
 4.	Delete /out 폴더
 5.	npm run build
 6.	Login to hostinger.com with google personal account
