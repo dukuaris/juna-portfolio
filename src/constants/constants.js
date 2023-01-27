@@ -59,6 +59,46 @@ export const projects = [
 		visit: 'https://apple-redesign-eosin.vercel.app/',
 		id: 5,
 	},
+	{
+		title: 'Video Social App',
+		description:
+			"This is a video social app. A user can upload and manage any videos by category. Also a user can review the other's video, give a like, and make a comment on them. This works as a video based social app.",
+		image: '/images/video_app.png',
+		tags: ['NextJS', 'Typescript', 'Sanity', 'Justand'],
+		source: 'https://github.com/dukuaris/tiktik-app',
+		visit: 'https://tiktik-app-two.vercel.app/',
+		id: 6,
+	},
+	{
+		title: 'AI Image Generator',
+		description:
+			'This is AI-powered image generator. Using DALL•E api of OpenAI, this app automatically generates images based on the context of whatever text a user passes in. It creates a different image each time the user enters',
+		image: '/images/image-gen.png',
+		tags: ['NodeJS', 'Express', 'DALL•E'],
+		source: 'https://github.com/dukuaris/ai-image-gen',
+		visit: 'https://ai-image-gen-hazel.vercel.app/',
+		id: 7,
+	},
+	{
+		title: 'Yaong Gallery',
+		description:
+			'Yaong Gallery is a place to share AI-powered images. Using DALL•E api of OpenAI, this app turn text into pictures. Also, users can post the generated images onto the gallery and share with others.',
+		image: '/images/yaong-gallery.png',
+		tags: ['ReactJS', 'Express', 'DALL•E'],
+		source: 'https://github.com/dukuaris/image-craft',
+		visit: 'https://image-craft.vercel.app/',
+		id: 8,
+	},
+	{
+		title: 'Yaongbot',
+		description:
+			"Built on Chatgpt and Dall-e, this chatbot can give not only text answers but also pictures for user's prompts. Also using Google's translator, Korean users can received better results.",
+		image: '/images/yaongbot.png',
+		tags: ['Nodejs', 'Express', 'OpenAI'],
+		source: 'https://github.com/dukuaris/yaongbot',
+		visit: 'https://yaongbot.vercel.app/',
+		id: 9,
+	},
 ]
 
 export const TimeLineData = [

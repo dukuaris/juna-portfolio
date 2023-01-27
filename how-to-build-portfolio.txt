@@ -5,7 +5,7 @@
 5.	npm run build
 6.	Login to hostinger.com with google personal account
 7.	Click Manage in Premium Shared Hosting
-8.	Go to Files  File Manger (beta)
+8.	Go to Files -> File Manger (beta)
 9.	Delete all folders and files in public_html 폴더
 10.	Copy and paste all folders and files from /out 폴더 in public_html 폴더
 11.	Access to https://www.junacraft.com/ to check
